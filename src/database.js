@@ -4,8 +4,8 @@ const dbOptions = {
     host: 'localhost',
     port: 3050,
     database: 'C:\\Mts3\\Db\\MTSDB.FDB',
-    user: 'SYSDBA',
-    password: 'masterkey',
+    user: 'MTSUSER',
+    password: 'mts3',
     lowercase_keys: false, // set to true to lowercase keys
     role: null,            // default
     pageSize: 4096,        // default when creating database

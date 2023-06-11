@@ -2,14 +2,13 @@
 import { dbOptions } from '../database'
 import firebird from 'node-firebird'
 
-const tryConnect = () => {
-  firebird.attach(dbOptions, function (err, db) {
-
+/* const tryConnect = () => {
+  firebird.attach(dbOptions, (err, db) => {
     if (err)
       throw err
 
     // db = DATABASE
-    db.query('SELECT * FROM PERSON', function (err, result) {
+    db.query('SELECT * FROM PERSON', (err, result) => {
       // IMPORTANT: close the connection
       // console.log(result)
 
@@ -23,9 +22,9 @@ const tryConnect = () => {
     })
 
   })
-}
+} */
 
-tryConnect()
+
 
 </script>
 
