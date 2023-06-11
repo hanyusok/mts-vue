@@ -5,6 +5,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Recommended IDE Setup
 
 https://www.youtube.com/live/Io1f8MTU7pU?feature=share&t=2886
+https://stackoverflow.com/questions/68696418/transaction-global-in-node-firebird
 
 ## Customize configuration
 

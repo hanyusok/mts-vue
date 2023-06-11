@@ -1,6 +1,8 @@
 <script setup>
 import { dbOptions } from '../database'
-import firebird from 'node-firebird'
+// import firebird from 'node-firebird'
+
+console.log('test')
 
 /* const tryConnect = () => {
   firebird.attach(dbOptions, (err, db) => {
